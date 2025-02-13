@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 
 class CatagoryTabScreen extends StatelessWidget {
   const CatagoryTabScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     return ListView(

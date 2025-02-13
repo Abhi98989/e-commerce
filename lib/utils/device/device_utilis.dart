@@ -30,7 +30,7 @@ class TDeviceUtils {
     final viewInsets = View.of(context).viewInsets;
     return viewInsets.bottom != 0;
   }
-
+ 
   // Function to enable or disable full screen mode
   static void setFullScreen(bool enable) {
     SystemChrome.setEnabledSystemUIMode(
